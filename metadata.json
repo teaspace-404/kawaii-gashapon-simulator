@@ -1,0 +1,5 @@
+{
+  "name": "Kawaii Gashapon Simulator",
+  "description": "A physics-based Gashapon (Capsule Toy) machine simulation using Matter.js and React. Features interactive crank mechanics and a prize reveal system.",
+  "requestFramePermissions": []
+}
