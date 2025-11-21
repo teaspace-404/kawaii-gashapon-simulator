@@ -25,10 +25,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # I REMOVED THE CACHE LINE HERE TO FIX THE ERROR
 
       - name: Install dependencies
-        # 'npm install' is the safest command for this setup
+        # This command will generate the missing lock file automatically
         run: npm install
 
       - name: Build
